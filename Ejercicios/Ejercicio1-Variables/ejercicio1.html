@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 | JavaScript</title>
+</head>
+<body>
+    <main>
+        <h1>Actividad adicional: Variables</h1>
+        <br>
+        <h4>Usted ha sido registrado con los siguientes datos:</h4>
+        <div id="nombre">Nombre: </div>
+        <div id="apellido">Apellido: </div>
+        <div id="edad">Edad: </div>
+    </main>
+
+    <script>
+        alert("Primero debes de registrarte");
+        var nombre = prompt("Ingresa tu nombre:");
+        var apellido = prompt("Ingresa tu apellido:");
+        var edad = prompt("Ingresa tu edad:");
+        document.getElementById("nombre").innerHTML += nombre;
+        document.getElementById("apellido").innerHTML += apellido;
+        document.getElementById("edad").innerHTML += edad;
+    </script>
+    
+</body>
+</html>
